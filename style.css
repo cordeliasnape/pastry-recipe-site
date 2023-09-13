@@ -56,6 +56,11 @@ a:visited {
     background-color: #F5E2E0;
 }
 
+.recipe-text {
+   padding: 5px;
+   margin: 5px;
+}
+
 .recipe-title {
     text-align: center;
     text-decoration: underline;
