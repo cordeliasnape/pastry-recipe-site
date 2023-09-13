@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="style.css">
     <title>Power Puff Pastries</title>
-
 </head>
 <body>
      <header>
@@ -20,25 +19,27 @@
              <button class="link">
                 <a href="http://">Link three</a>
             </button>
+        <h2 id="message"><script src=./prompts.js></script></h2>
         </ul>
      </header>
-</body>
+
 <main> 
     <div class="split left">
         <div class="centered">
         <h2 class="recipe-title">Perfect Flaky Croissants</h2>
         <img src="crossaint.jpeg" alt="croissant image" class="recipe-image" height=200px>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugiat, aut magnam assumenda in a quasi eos cupiditate consectetur eveniet!</p>
-        <ul>
-            <li>Flour</li>
-            <li>Butter</li>
-            <li>Sugar</li>
-        </ul>    
-        <ol>
-            <li>First, you ....</li>
-            <li>Second, you can ....</li>
-            <li>Third, make sure ....</li>
-        </ol>
+        <button id="ingBtn1">Ingredients</button>
+            <ul id="ingTxt1">
+                <li>Flour</li>
+                <li>Butter</li>
+                <li>Sugar</li>
+            </ul>    
+            <ol>
+                <li>First, you ....</li>
+                <li>Second, you can ....</li>
+                <li>Third, make sure ....</li>
+            </ol>
         </div>
     </div>
     <div class="split right">
@@ -46,20 +47,23 @@
         <h2 class="recipe-title">Pain Au Chocolat</h2>
         <img src="pain-au-chocolat.jpeg" alt="pain au chocolat image" class="recipe-image" height=200px>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugiat, aut magnam assumenda in a quasi eos cupiditate consectetur eveniet!</p>
-        <ul>
-            <li>Flour</li>
-            <li>Butter</li>
-            <li>Sugar</li>
-        </ul>
-        <ol>
-            <li>First, you ....</li>
-            <li>Second, you can ....</li>
-            <li>Third, make sure ....</li>
-        </ol>
+        <button class="ingredientsList">Ingredients</button>   
+            <ul>
+                <li>Flour</li>
+                <li>Butter</li>
+                <li>Sugar</li>
+            </ul>
+            <ol>
+                <li>First, you ....</li>
+                <li>Second, you can ....</li>
+                <li>Third, make sure ....</li>
+            </ol>
         </div>
     </div>
 </main>
-<footer>
+<footer id="footer">
     <p class="footer-text">&copy Power Puff Pastries 2023 </p>
 </footer>
+    <script src="./background.js"></script>
+</body>
 </html>
