@@ -1,0 +1,55 @@
+body {
+    position:fixed;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    background-color:lightskyblue;
+    margin: 10px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.split {
+    height: 70%;
+    width: 45%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left{
+    left: 0;
+    margin-top: 500px;
+    margin: 5px;
+    background-color: beige;
+}
+
+.right {
+    right: 0;
+    margin-top: 500px;
+    margin: 5px;
+    background-color: beige;
+}
+
+.recipe-title {
+    text-align: center;
+}
+
+.recipe-image {
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: lightblue;
+}
+
+.footer-text {
+    color: white;
+}

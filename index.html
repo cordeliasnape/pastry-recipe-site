@@ -2,49 +2,64 @@
 <html lang="en"> 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
     <title>Power Puff Pastries</title>
 
 </head>
 <body>
      <header>
-        <img src="link" "alt= pastires logo">
+        <h1>Power Puff Pastries</h1>
         <ul>
-             <button>   
+             <button class="link"> 
                 <a href="http://">Link one</a>
              </button>
-             <button>
+             <button class="link">
                 <a href="http://">Link two</a>
              </button>
-             <button>
+             <button class="link">
                 <a href="http://">Link three</a>
             </button>
         </ul>
      </header>
 </body>
 <main> 
-    <div id="left">
-        <h2>Perfect Flaky Croissants</h2>
-        <img src="crossaint.jpeg" alt="croissant image" height=200px>
+    <div class="split left">
+        <div class="centered">
+        <h2 class="recipe-title">Perfect Flaky Croissants</h2>
+        <img src="crossaint.jpeg" alt="croissant image" class="recipe-image" height=200px>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugiat, aut magnam assumenda in a quasi eos cupiditate consectetur eveniet!</p>
-            <ol>
-                <li>First, you ....</li>
-                <li>Second, you can ....</li>
-                <li>Third, make sure ....</li>
-            </ol>
-    </div>
-    <div id="right">
-        <h2>Pain Au Chocolat</h2>
-        <img src="pain-au-chocolat.jpeg" alt="pain au chocolat image" height=200px>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugiat, aut magnam assumenda in a quasi eos cupiditate consectetur eveniet!</p>
+        <ul>
+            <li>Flour</li>
+            <li>Butter</li>
+            <li>Sugar</li>
+        </ul>    
         <ol>
             <li>First, you ....</li>
             <li>Second, you can ....</li>
             <li>Third, make sure ....</li>
         </ol>
+        </div>
+    </div>
+    <div class="split right">
+        <div class="centered">
+        <h2 class="recipe-title">Pain Au Chocolat</h2>
+        <img src="pain-au-chocolat.jpeg" alt="pain au chocolat image" class="recipe-image" height=200px>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugiat, aut magnam assumenda in a quasi eos cupiditate consectetur eveniet!</p>
+        <ul>
+            <li>Flour</li>
+            <li>Butter</li>
+            <li>Sugar</li>
+        </ul>
+        <ol>
+            <li>First, you ....</li>
+            <li>Second, you can ....</li>
+            <li>Third, make sure ....</li>
+        </ol>
+        </div>
     </div>
 </main>
 <footer>
-    <p>&copy Power Puff Pastries 2023 </p>
+    <p class="footer-text">&copy Power Puff Pastries 2023 </p>
 </footer>
 </html>
