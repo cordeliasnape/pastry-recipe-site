@@ -11,17 +11,3 @@ let message = "Good " + daytime + ", " + username +".";
 console.log (message);
 
 document.write(message);
-
-///
-
-let button=document.getElementById("ingBtn1");
-let text=document.getElementById("ingTxt1");
-let toggle=true;
-button.addEventListener("click", () => {
-    if (toggle) {
-        text.style.display="none"
-    } else {
-        text.style.display="block"
-    }
-    toggle=!toggle;
-})
