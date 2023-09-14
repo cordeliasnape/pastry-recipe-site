@@ -1,4 +1,4 @@
-let time = prompt("What hour is it? (0-23 - For example: 4pm is 16))");
+let time = prompt("What hour is it?\n(0-23 - For example: 4pm is 16)");
 
 console.log(time)
 
@@ -10,9 +10,8 @@ function changeBgColor() {
     } else if (time <= 23) {
         document.body.style.backgroundColor = "#a15e3a";
     } else {
-        alert("That is not a valid time"); //alert currently doesn't close, tried changing to `confirm`
-        window.location.reload (true); //attempt at fixing the website
-        changeBgColor (); //reruns the function
+        alert("That is not a valid time.\nPlease close the site and reopen it, thank you!\nP.S I know I'm cheating."); // please please hint at me where i'm going wrong lol
+        changeBgColor ();
 }
 }
 
