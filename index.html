@@ -24,13 +24,17 @@
      </header>
 
 <main> 
+    <script src="./button.js"></script>
+            <script>
+                imgBtn();
+            </script>
     <div class="split left">
         <div class="centered">
         <h2 class="recipe-title">Perfect Flaky Croissants</h2>
         <img src="crossaint.jpeg" alt="croissant image" class="recipeImage">
         <p class="recipe-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugiat, aut magnam assumenda in a quasi eos cupiditate consectetur eveniet!</p>
-        <button id="ingBtn1">Ingredients</button>
-            <ul id="ingTxt1">
+        <button onclick="showAndHide()">Ingredients</button>
+            <ul id="ingTxt" style="display:none">
                 <li>Flour</li>
                 <li>Butter</li>
                 <li>Sugar</li>

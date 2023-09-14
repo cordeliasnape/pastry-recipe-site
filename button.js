@@ -1,11 +1,8 @@
-let button=document.getElementById("ingBtn1");
-let text=document.getElementById("ingTxt1");
-button.addEventListener("click", () => {
-    if (toggle) {
-        text.style.display="none"
-        text.style.display="block"
+function showAndHide() {
+    let doc = document.getElementById("ingTxt");
+    if (doc.style.display == "none") {
+        doc.style.display= "block";
     } else {
-        text.style.display
+        doc.style.display = "none";
     }
-    toggle=!toggle;
-})
+}
