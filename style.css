@@ -1,89 +1,94 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 header {
-    height: 10%;
-    width: 100%;
-    padding: 13px;
-    margin-bottom: 10px;
-    background-color: #DBA180;
-    color: white;
-    position: relative;
-    text-align: center;
+  height: 10%;
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 10px;
+  background-color: #dba180;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+#rating {
+  max-height: 50px;
+  max-width: 50px;
 }
 
 h1 {
-    text-decoration: underline;
-    text-align: center;
-    justify-content: center;
-    color: #272727;
+  text-decoration: underline;
+  text-align: center;
+  justify-content: center;
+  color: #272727;
 }
 
 .link {
-    text-decoration: none;
-    color: #272727;
+  text-decoration: none;
+  color: #272727;
 }
 
 a:visited {
-    color:#273043;
+  color: #273043;
 }
 
 .split {
-    height: 70%;
-    width: 47%;
-    position: relative;
-    z-index: 1;
-    overflow-x: hidden;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    border-style: double;
-    border-width: 2px;
-    border-color: #273043;
+  height: 70%;
+  width: 47%;
+  position: relative;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border-style: double;
+  border-width: 2px;
+  border-color: #273043;
 }
 
 .left {
-    margin-top: 500px;
-    margin: 5px;
-    background-color: #F5E2E0;
+  margin-top: 500px;
+  margin: 5px;
+  background-color: #f5e2e0;
 }
 
 .right {
-    margin-top: 500px;
-    margin: 5px;
-    background-color: #F5E2E0;
+  margin-top: 500px;
+  margin: 5px;
+  background-color: #f5e2e0;
 }
 
 .recipe-text {
-   padding: 5px;
-   margin: 5px;
+  padding: 5px;
+  margin: 5px;
 }
 
 .recipe-title {
-    text-align: center;
-    text-decoration: underline;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .recipeImage {
-    border:#272727;
-    border-width: 2px;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
+  border: #272727;
+  border-width: 2px;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 
 #footer {
-    background-color: #D79570;
-    display:flex;
-    align-items:center;
-    text-align: center;
-    justify-content: center;
-    margin-top: 10px;
+  background-color: #d79570;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .footer-text {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
